@@ -1,2 +1,2 @@
 when you use this code
-change aMain to Main
+change amain to main
