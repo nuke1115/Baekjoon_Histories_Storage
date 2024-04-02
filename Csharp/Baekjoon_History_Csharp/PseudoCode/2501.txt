@@ -1,0 +1,23 @@
+﻿정수_배열 nums = 입력을 정수 배열로 변환한것;
+정수 count = 0;
+정수 result = 0;
+정수 smallestMeasure = 0;
+
+
+for (int i = 1; i가 nums의 0번째 요소보다 같거나 작을동안; i에 1씩 더하기)
+{
+
+	result = nums의 0번째 요소를 i로 나눈 나머지;
+	if (만약 result 가 0일경우)
+	{
+		count에 1 더하기;
+	}
+
+	if (만약 nums의 1번 요소와 count가 같다면)
+	{
+		smallestMeasure = i;
+		반복 종료;
+	}
+}
+
+출력(smallestMeasure);
