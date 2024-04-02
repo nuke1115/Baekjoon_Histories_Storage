@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int amain()
 {
 
 	int testCases, a, b;
