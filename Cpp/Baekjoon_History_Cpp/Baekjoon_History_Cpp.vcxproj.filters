@@ -21,9 +21,15 @@
     <ClCompile Include="SourceCode\2557.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="PseudoCode\7891.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="PseudoCode\2557.txt">
+      <Filter>PseudoCode</Filter>
+    </Text>
+    <Text Include="PseudoCode\7891.txt">
       <Filter>PseudoCode</Filter>
     </Text>
   </ItemGroup>

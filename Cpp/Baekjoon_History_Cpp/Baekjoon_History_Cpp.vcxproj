@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="PseudoCode\7891.cpp" />
     <ClCompile Include="SourceCode\2557.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="PseudoCode\2557.txt" />
+    <Text Include="PseudoCode\7891.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

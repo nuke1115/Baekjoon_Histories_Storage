@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+int amain()
 {
 
 	printf("Hello World!");
