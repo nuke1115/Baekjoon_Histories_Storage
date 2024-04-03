@@ -1,0 +1,18 @@
+﻿정수 testCases 에 입력을 정수로 바꾼것 대입;
+
+정수 multiTapHoles 에 0 대입;
+
+정수 sum에 0 대입;
+
+for (정수 i 를 1으로 설정; i가 testCases보다 같거나 작을동안; i에 1씩 더하기)
+{
+	multiTapHoles 에 입력을 정수로 바꾼것 대입;
+	if (만약 testCases와 i가 다르다면)
+	{
+		multiTapHoles에서 1 빼기;
+	}
+	sum에 multiTapHoles의 값 더하기;
+
+}
+
+sum 출력;
