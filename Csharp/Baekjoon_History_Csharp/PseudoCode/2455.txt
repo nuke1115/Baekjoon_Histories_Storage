@@ -1,0 +1,22 @@
+﻿정수 highestPeopleCount = 0;
+정수_배열 nums; <= 길이 : 2
+정수 nowPeopleCount
+
+
+for (정수 i = 0; i가 4보다 작을동안; i에 1씩 더하기)
+{
+	nums = 입력을 정수 배열로 변환한것;
+
+
+	nowPeopleCount = nums의 1번째 요소에서 nums의 0번쨰 요소를 뺀것을 더한것;
+
+	if (만약 nowPeopleCount가 highestPeopleCount보다 크다면)
+	{
+		highestPeopleCount = nowPeopleCount
+	}
+
+
+
+}
+
+highestPeopleCount 출력;
