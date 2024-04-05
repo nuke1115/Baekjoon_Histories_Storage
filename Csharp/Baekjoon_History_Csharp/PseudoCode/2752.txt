@@ -1,0 +1,26 @@
+﻿정수_배열 nums = 입력을 정수 배열로 바꾼것;
+
+정수 tmp = 0;
+
+정수 highestNumIndex = 0;
+
+for (정수 i = 0; i가 nums의 길이보다 작을동안; i에 1씩 더하기)
+{
+	highestNumIndex = i;
+	for (정수 k = i; k가 nums의 길이보다 작을동안; k에 1씩 더하기 )
+	{
+		if (nums의 k번째 요소가 nums의  highestNum번째 요소보다 크다면)
+		{
+			highestNumIndex = k;
+		}
+	}
+
+	tmp = nums의 highestNumIndex번째 요소;
+	nums의 highestNumIndex번째 요소 = nums의 i번쨰 요소;
+	nums의 i번째 요소 = tmp;
+}
+
+for (정수 i = 2; i가 0보다 같거나 클동안; i에서 1씩 빼기)
+{
+	nums의 i번째 요소 출력;
+}
