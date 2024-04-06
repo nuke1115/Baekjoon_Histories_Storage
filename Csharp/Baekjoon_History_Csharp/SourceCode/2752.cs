@@ -2,7 +2,7 @@
 {
 	public class Program
 	{
-		public static void Main()
+		public static void aMain()
 		{
 			int[] nums = Array.ConvertAll(Console.ReadLine().Split(" ") , int.Parse);
 			int tmp = 0;
