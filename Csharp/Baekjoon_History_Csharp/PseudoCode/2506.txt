@@ -1,0 +1,36 @@
+﻿정수 problems = 입력을 정수로 변환한것;
+문자_배열 _internalArr = 입력을 배열로 변환한것;
+정수 _index = 0;
+정수(상수) scoreWeight = 1;
+문자(상수) correct = 1;
+정수 scoreSum = 0;
+정수 scoreComboScore = 1;
+
+
+반복 (_index가 _internalArr의 길이보다 작을동안; _index에 1씩 더하기)
+{
+	
+
+	if (만약 _internalArr의 _index번째 요소가 correct라면)
+	{
+		scoreSum 에 scoreComboScore 더하기;
+		scoreComboScore에 scoreWeight더하기;
+	}
+	아니라면
+	{
+		scoreComboScore = 1;
+	}
+
+
+
+
+
+
+}반복 종료
+
+scoreSum 출력;
+
+
+
+
+
