@@ -1,0 +1,30 @@
+﻿문자열_배열 input = 입력을 공백 기준으로 쪼갠것;
+정수(상수) invalidNum = -1;
+정수(상수) calibrationNum = 55;
+
+문자_배열 nums = input의 0번째 요소를 문자 배열로 변환한것;
+정수 Formation = input의 1번쨰 요소를 정수로 변환한것;
+정수 number = 0;
+정수 sum = 0;
+
+
+정수 k = 0
+반복 (정수 i = nums의 길이 - 1;  i가 0보다 같거나 클동안 ; i에서 1씩 빼기, 그리고 k에 1씩 더하기)
+{
+	number = nums의 i번쨰 요소를 정수로 변환한것;
+
+	if (number가 invalidNum 과 같다면)
+	{
+		number = nums의 i번째 요소를 정수로 형변환한것에서 calibrationNum을 뺀것;
+	}
+
+	sum에 number*(Formation 를k 제곱) 한것 더하기;
+
+}
+
+
+
+sum 출력하기;
+
+
+
