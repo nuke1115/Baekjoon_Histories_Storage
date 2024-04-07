@@ -4,7 +4,7 @@
 	{
 		const int invalidNum = -1;
 		const int calibrationNum = 55;
-		public static void Main()
+		public static void aMain()
 		{
 
 			string[] input = Console.ReadLine().Split(" ");
