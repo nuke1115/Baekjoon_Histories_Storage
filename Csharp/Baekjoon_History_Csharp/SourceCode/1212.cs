@@ -6,7 +6,7 @@ namespace Fuc_8
 	public class Program
 	{
 		
-		public static void Main()
+		public static void aMain()
 		{
 
 			string[] binaryWithZero = { "001" , "010" , "011" , "100" , "101" , "110" , "111" , "000"};
