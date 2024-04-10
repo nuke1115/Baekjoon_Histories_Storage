@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="SourceCode\15687.cpp" />
     <ClCompile Include="SourceCode\2557.cpp" />
     <ClCompile Include="SourceCode\7891.cpp" />
   </ItemGroup>

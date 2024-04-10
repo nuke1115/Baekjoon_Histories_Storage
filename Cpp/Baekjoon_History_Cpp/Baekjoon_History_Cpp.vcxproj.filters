@@ -24,6 +24,9 @@
     <ClCompile Include="SourceCode\7891.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SourceCode\15687.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="PseudoCode\2557.txt">
