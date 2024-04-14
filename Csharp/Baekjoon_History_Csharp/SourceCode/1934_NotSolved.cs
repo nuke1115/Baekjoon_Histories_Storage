@@ -4,7 +4,7 @@ namespace Fuc15
 {
 	public class Program
 	{
-		public static void Main()
+		public static void aMain()
 		{
 			int testCases = int.Parse(Console.ReadLine());
 
