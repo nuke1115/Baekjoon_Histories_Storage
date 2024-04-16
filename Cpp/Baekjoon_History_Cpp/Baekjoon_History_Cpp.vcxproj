@@ -19,13 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SourceCode\15687.cpp" />
-    <ClCompile Include="SourceCode\2557.cpp" />
-    <ClCompile Include="SourceCode\7891.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="PseudoCode\2557.txt" />
     <Text Include="PseudoCode\7891.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\10828\10828.cpp" />
+    <ClCompile Include="SourceCode\15687\15687.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SourceCode\2557\2557.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SourceCode\7891\7891.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
