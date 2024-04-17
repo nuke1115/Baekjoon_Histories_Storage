@@ -3,7 +3,7 @@
 	public class Program
 	{
 		const int numCap = 46;
-		public static void Main()
+		public static void aMain()
 		{
 
 			
