@@ -32,10 +32,13 @@
     <ClCompile Include="SourceCode\7891\7891.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SourceCode\15687\15687.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="SourceCode\10828\10828.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SourceCode\15687\15687.cpp">
+    <ClCompile Include="SourceCode\1259.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
