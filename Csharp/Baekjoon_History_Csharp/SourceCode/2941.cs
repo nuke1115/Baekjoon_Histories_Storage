@@ -5,7 +5,7 @@
 		static string[] croatiaAlphabetsEn = { "c=" , "c-" , "dz=" , "d-" , "lj" , "nj" , "s=" , "z="};
 
 
-		public static void Main()
+		public static void aMain()
 		{
 			string input = Console.ReadLine();
 
