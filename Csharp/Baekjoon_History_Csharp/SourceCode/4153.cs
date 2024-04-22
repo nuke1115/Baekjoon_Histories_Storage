@@ -5,7 +5,7 @@ namespace Fuc25_1
 	public class Program
 	{
 		const int EOF = 0;
-		public static void Main()
+		public static void aMain()
 		{
 			StringBuilder sb = new StringBuilder();
 
