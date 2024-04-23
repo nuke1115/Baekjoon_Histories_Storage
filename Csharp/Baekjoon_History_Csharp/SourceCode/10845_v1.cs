@@ -76,7 +76,7 @@ namespace Fuc26_v1
 	{
 		static StringBuilder sb = new StringBuilder();
 		static Queue queue = new Queue();
-		public static void Main()
+		public static void aMain()
 		{
 			int testCases = int.Parse(Console.ReadLine());
 
