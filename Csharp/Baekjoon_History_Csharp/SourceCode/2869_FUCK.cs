@@ -2,7 +2,7 @@
 {
 	public class Program
 	{
-		public static void Main()
+		public static void aMain()
 		{
 			string[] args = Console.ReadLine().Split(" ");
 			int mA = int.Parse(args[0]);
