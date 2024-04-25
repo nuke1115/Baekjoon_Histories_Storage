@@ -4,7 +4,7 @@ namespace Fuc28
 {
 	public class Program
 	{
-		public static void Main()
+		public static void aMain()
 		{
 			StringBuilder stringBuilder = new StringBuilder();
 			string[] args = Console.ReadLine().Split(" ");
