@@ -26,6 +26,7 @@
     <ClCompile Include="SourceCode\10828\10828.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="SourceCode\1350_v1.cpp" />
     <ClCompile Include="SourceCode\15687\15687.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
