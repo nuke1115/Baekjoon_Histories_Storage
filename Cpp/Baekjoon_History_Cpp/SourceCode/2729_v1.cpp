@@ -35,30 +35,18 @@ int amain(void)
 			outPutStack.push(carry);
 		}
 
-		bool canPrint = false;
+
+
+		while (outPutStack.size() > 1 && !outPutStack.top())
+		{
+			outPutStack.pop();
+		}
 
 		while (!outPutStack.empty())
 		{
 			int tmp = outPutStack.top();
 			outPutStack.pop();
-			
-			
-			if (tmp)
-			{
-				canPrint = true;
-			}
-
-			if (!canPrint)
-			{
-				continue;
-			}
-
 			cout << tmp;
-		}
-
-		if (!canPrint)
-		{
-			cout << '0';
 		}
 
 		cout << endl;
