@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int amain()
 {
 	int a,b,c,d,i=0;
 	for (;i<3;i++)
