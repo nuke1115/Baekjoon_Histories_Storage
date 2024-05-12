@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int amain()
 {
 	int testCase, maximumPrice = 0, priceTmp , numMax;
 	int nums[3];
