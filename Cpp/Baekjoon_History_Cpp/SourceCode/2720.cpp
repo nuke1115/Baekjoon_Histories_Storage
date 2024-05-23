@@ -23,7 +23,6 @@ int amain()
 	}
 	return 0;
 }
-}
 /*
 
 */
