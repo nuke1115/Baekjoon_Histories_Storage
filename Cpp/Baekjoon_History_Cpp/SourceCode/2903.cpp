@@ -5,10 +5,12 @@ int amain()
 	int num, sum, numX = 1, numY = 2;
 	scanf_s("%d", &num);
 
-	for (int i = 0; i < num; i++ , numY = numX + numY , numX *= 2)
-	{
-		sum = pow(numX+numY , 2);
-	}
+	num -= 1;
+
+	numY = numX + numY;
+	numX = numX << num;
+	
+	sum = pow(numX + numY , 2);
 
 
 	printf("%d", sum);
